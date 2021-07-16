@@ -1,0 +1,22 @@
+#O cash só funciona com o zCash.
+ranks:
+  teste:
+    money: 1000
+    cash: 0
+    permissao: "rank.teste"
+    setarperm: "pex user %player% group set teste"
+  testeI:
+      money: 1000
+      cash: 0
+      permissao: "rank.testeI"
+      setarperm: "pex user %player% group set testeI"
+mensagens:
+  chat:
+    ativar: true
+    aviso: "§6[RANKUP] &7%player% upou para o rank %rankname%"
+  actionbar:
+    ativar: true
+    aviso: "§6[RANKUP] &7%player% upou para o rank %rankname%"
+ultimorank: "§eVocê já está no ultimo rank!"
+upou: "§eVocê upou pro rank %rankname% com sucesso!"
+naotem: "§cVocê não tem recursos suficientes para upar!"
